@@ -33,4 +33,3 @@ Diagram
 -------
 
 ![Alt text](./RPC-Diagram-MQTT.svg)
-<img src="./RPC-Diagram-MQTT.svg">
