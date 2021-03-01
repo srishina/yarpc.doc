@@ -16,7 +16,7 @@ Goal
 ----
 1. Support unary, bi-directional RPC calls
 2. Usage of light weight transport for communication
-3. Easy usage in browser environment, i.e the system should be easy to depoly/use without forcing any extra indrection or proxying.
+3. Easy usage in browser environment, i.e the system should be easy to depoly/use without forcing any extra indrection or proxying. for e.g due to the complex usage of HTTP/2 forces the need to have a proxy instead of directly using gRPC client in the browser
 4. Use the protobuf schema that the gRPC framework uses
 5. Reconnect incase of network failures are enabled by default. i.e the system will automatically retry incase of network failures. note: RPC calls are bound by network connectivity, so automatic retry has it's own limitations.
 6. Authentication, compression etc...
